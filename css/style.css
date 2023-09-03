@@ -186,6 +186,11 @@ right: 0;
 .fill:hover::before {
   width: 100%;
 }
+@media(max-width:767px){
+  .fill::before {
+    top: 21%;
+  }
+}
 .header .container .main-nav > li > a::before {
   content: "";
   position: absolute;
